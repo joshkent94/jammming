@@ -1,5 +1,5 @@
 import React from 'react';
-import {TrackList} from '../Tracklist/Tracklist.js';
+import {Tracklist} from '../Tracklist/Tracklist.js';
 import './SearchResults.css';
 
 export class SearchResults extends React.Component {
@@ -7,7 +7,7 @@ export class SearchResults extends React.Component {
         return (
             <div className="SearchResults">
             <h2>Results</h2>
-            {/* <TrackList /> */}
+            <Tracklist tracks={this.props.searchResults}/>
             </div>
         );
     }
