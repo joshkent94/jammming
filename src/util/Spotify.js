@@ -1,5 +1,5 @@
 const clientId = '66616a8587774a97bde8ff6a3934dd52';
-const redirectUri = 'http://josh_playlist_project.surge.sh';
+const redirectUri = 'https://jammmingreactapp.netlify.app/';
 let accessToken;
 
 export const Spotify = {
