@@ -1,6 +1,6 @@
 # jammming
 
-> Spotify playlist builder - test
+> Spotify playlist builder
 
 ## Table of contents
 
